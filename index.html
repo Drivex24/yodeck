@@ -241,9 +241,9 @@
     color: #00b038;
     letter-spacing: 1px;
   }
-  .hour-time.closed {
-    color: #e63329;
-    font-size: 36px;
+  .hour-time.wa {
+    color: #00a044;
+    font-size: 34px;
   }
   .hour-time-split {
     display: flex;
@@ -771,12 +771,8 @@
         <div class="hours-label">◆ ÖFFNUNGSZEITEN</div>
         <div class="hours-title">Wir sind <span class="green">für Sie da</span></div>
         <div class="hours-grid">
-          <div class="hour-row" data-day="mo">
-            <span class="hour-day">Montag</span>
-            <span class="hour-time">16:00 – 18:00</span>
-          </div>
-          <div class="hour-row" data-day="di-fr">
-            <span class="hour-day">Di – Fr</span>
+          <div class="hour-row" data-day="mo-fr">
+            <span class="hour-day">Mo – Fr</span>
             <div class="hour-time-split">
               <span class="hour-time">09 – 13</span>
               <span class="sep">|</span>
@@ -785,11 +781,11 @@
           </div>
           <div class="hour-row" data-day="sa">
             <span class="hour-day">Samstag</span>
-            <span class="hour-time closed">Geschlossen</span>
+            <span class="hour-time">09 – 11</span>
           </div>
           <div class="hour-row" data-day="so">
             <span class="hour-day">Sonntag</span>
-            <span class="hour-time closed">Geschlossen</span>
+            <span class="hour-time wa">Reservierung per WhatsApp</span>
           </div>
         </div>
       </div>
@@ -824,7 +820,7 @@
             <div class="service-icon">🔑</div>
             <div class="service-text">
               <div class="service-name">Auto-Abo</div>
-              <div class="service-desc">Ab 499€ / Monat</div>
+              <div class="service-desc">Jetzt anfragen</div>
             </div>
           </div>
           <div class="service-card">
@@ -842,19 +838,7 @@
         <div class="outside-icon">📞</div>
         <div class="outside-label">◆ AUSSERHALB DER ZEITEN</div>
         <div class="outside-title">Anmietung <span class="green">auf Anfrage</span></div>
-        <div class="outside-desc">Auch <strong>samstags</strong> in Ausnahmefällen möglich –<br>melden Sie sich per <strong>Telefon</strong> oder <strong>WhatsApp</strong>.</div>
-      </div>
-
-      <!-- SLIDE 5: SONDERÖFFNUNGSZEITEN -->
-      <div class="slide slide-special">
-        <div class="special-badge">⚠ WICHTIGER HINWEIS</div>
-        <div class="special-label">◆ SONDERÖFFNUNGSZEITEN</div>
-        <div class="special-title">24.08. – <span class="green">11.09.26</span></div>
-        <div class="special-timebox">
-          <div class="special-timelabel">Geöffnet täglich</div>
-          <div class="special-time">14:00 – 18:00</div>
-        </div>
-        <div class="special-note">Reguläre Öffnungszeiten<br>ab dem <strong>12.09.2026</strong></div>
+        <div class="outside-desc">Auch <strong>sonntags</strong> können Sie reservieren –<br>melden Sie sich per <strong>WhatsApp</strong> oder <strong>Telefon</strong>.</div>
       </div>
 
     </div>
@@ -863,15 +847,15 @@
     <div class="visual-panel">
 
       <div class="visual-slide active">
-        <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?w=1200&q=80" alt="Sportwagen">
+        <img src="img/flotte-01.jpg" alt="Unsere Fahrzeuge">
         <div class="visual-caption">
           <div class="cap-label">◆ PREMIUM FLOTTE</div>
-          <div class="cap-title">Sportwagen & mehr</div>
+          <div class="cap-title">Unsere Fahrzeuge</div>
         </div>
       </div>
 
       <div class="visual-slide">
-        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200&q=80" alt="Luxus Auto">
+        <img src="img/flotte-04.jpg" alt="Premium-Modelle">
         <div class="visual-caption">
           <div class="cap-label">◆ MODERNE FAHRZEUGE</div>
           <div class="cap-title">Premium-Modelle</div>
@@ -879,18 +863,58 @@
       </div>
 
       <div class="visual-slide">
-        <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1200&q=80" alt="Mercedes Sprinter Transporter">
+        <img src="img/flotte-02.jpg" alt="Ihr Fahrzeug, flexibel">
         <div class="visual-caption">
-          <div class="cap-label">◆ TRANSPORTER</div>
-          <div class="cap-title">Für Umzug & Gewerbe</div>
+          <div class="cap-label">◆ AUTO-ABO</div>
+          <div class="cap-title">Ihr Fahrzeug, flexibel</div>
         </div>
       </div>
 
       <div class="visual-slide">
-        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1200&q=80" alt="SUV">
+        <img src="img/flotte-05.jpg" alt="Unsere Fahrzeuge">
+        <div class="visual-caption">
+          <div class="cap-label">◆ PREMIUM FLOTTE</div>
+          <div class="cap-title">Unsere Fahrzeuge</div>
+        </div>
+      </div>
+
+      <div class="visual-slide">
+        <img src="img/flotte-03.jpg" alt="Premium-Modelle">
+        <div class="visual-caption">
+          <div class="cap-label">◆ MODERNE FAHRZEUGE</div>
+          <div class="cap-title">Premium-Modelle</div>
+        </div>
+      </div>
+
+      <div class="visual-slide">
+        <img src="img/transporter.jpg" alt="Für Umzug & Gewerbe">
+        <div class="visual-caption">
+          <div class="cap-label">◆ TRANSPORTER</div>
+          <div class="cap-title">Für Umzug &amp; Gewerbe</div>
+        </div>
+      </div>
+
+      <div class="visual-slide">
+        <img src="img/flotte-09.jpg" alt="Unsere Fahrzeuge">
+        <div class="visual-caption">
+          <div class="cap-label">◆ PREMIUM FLOTTE</div>
+          <div class="cap-title">Unsere Fahrzeuge</div>
+        </div>
+      </div>
+
+      <div class="visual-slide">
+        <img src="img/flotte-06.jpg" alt="Ihr Fahrzeug, flexibel">
         <div class="visual-caption">
           <div class="cap-label">◆ AUTO-ABO</div>
           <div class="cap-title">Ihr Fahrzeug, flexibel</div>
+        </div>
+      </div>
+
+      <div class="visual-slide">
+        <img src="img/flotte-07.jpg" alt="Premium-Modelle">
+        <div class="visual-caption">
+          <div class="cap-label">◆ MODERNE FAHRZEUGE</div>
+          <div class="cap-title">Premium-Modelle</div>
         </div>
       </div>
 
@@ -929,30 +953,26 @@
     <div class="ticker">
       <div class="ticker-item"><span class="highlight">DRIVEX24</span> · Premium Autovermietung in Kirchheim unter Teck</div>
       <span class="ticker-dot">●</span>
-      <div class="ticker-item">⚠ <span class="highlight">24.08. – 11.09.26:</span> Sonderöffnungszeiten 14:00 – 18:00 Uhr</div>
-      <span class="ticker-dot">●</span>
-      <div class="ticker-item">Auto-Abo ab <span class="highlight">499€ / Monat</span> · Jetzt anfragen</div>
+      <div class="ticker-item"><span class="highlight">Auto-Abo</span> · Jetzt anfragen</div>
       <span class="ticker-dot">●</span>
       <div class="ticker-item">Folgen Sie uns auf <span class="highlight">Instagram @drivex24</span></div>
       <span class="ticker-dot">●</span>
       <div class="ticker-item">Kurzfristige Fahrzeugverfügbarkeit auf Anfrage</div>
       <span class="ticker-dot">●</span>
-      <div class="ticker-item">Reservierungen auch <span class="highlight">außerhalb der Öffnungszeiten</span> möglich</div>
+      <div class="ticker-item">Sonntags <span class="highlight">Reservierung per WhatsApp</span></div>
       <span class="ticker-dot">●</span>
       <div class="ticker-item">Transporter · PKW · Premium-Flotte · <span class="highlight">Alles aus einer Hand</span></div>
       <span class="ticker-dot">●</span>
       <!-- Duplikat -->
       <div class="ticker-item"><span class="highlight">DRIVEX24</span> · Premium Autovermietung in Kirchheim unter Teck</div>
       <span class="ticker-dot">●</span>
-      <div class="ticker-item">⚠ <span class="highlight">24.08. – 11.09.26:</span> Sonderöffnungszeiten 14:00 – 18:00 Uhr</div>
-      <span class="ticker-dot">●</span>
-      <div class="ticker-item">Auto-Abo ab <span class="highlight">499€ / Monat</span> · Jetzt anfragen</div>
+      <div class="ticker-item"><span class="highlight">Auto-Abo</span> · Jetzt anfragen</div>
       <span class="ticker-dot">●</span>
       <div class="ticker-item">Folgen Sie uns auf <span class="highlight">Instagram @drivex24</span></div>
       <span class="ticker-dot">●</span>
       <div class="ticker-item">Kurzfristige Fahrzeugverfügbarkeit auf Anfrage</div>
       <span class="ticker-dot">●</span>
-      <div class="ticker-item">Reservierungen auch <span class="highlight">außerhalb der Öffnungszeiten</span> möglich</div>
+      <div class="ticker-item">Sonntags <span class="highlight">Reservierung per WhatsApp</span></div>
       <span class="ticker-dot">●</span>
       <div class="ticker-item">Transporter · PKW · Premium-Flotte · <span class="highlight">Alles aus einer Hand</span></div>
       <span class="ticker-dot">●</span>
@@ -964,20 +984,6 @@
   const days = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
   const months = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
 
-  // SONDERZEITRAUM 24.08.2026 – 11.09.2026
-  const specialStart = new Date(2026, 7, 24, 0, 0, 0);  // 24.08.2026 00:00
-  const specialEnd = new Date(2026, 8, 11, 23, 59, 59); // 11.09.2026 23:59
-
-  function isSpecialPeriod() {
-    const now = new Date();
-    return now >= specialStart && now <= specialEnd;
-  }
-
-  function isBeforeSpecialEnd() {
-    // Slide 5 (Sonderöffnungszeiten) nur bis Ende Zeitraum anzeigen
-    return new Date() <= specialEnd;
-  }
-
   function updateClock() {
     const now = new Date();
     document.getElementById('hh').textContent = String(now.getHours()).padStart(2,'0');
@@ -987,28 +993,7 @@
     const day = now.getDay();
     document.querySelectorAll('.hour-row').forEach(el => el.classList.remove('today'));
 
-    // Während Sonderzeitraum: alle Tage grau, kein "today"-Highlight in Standardliste
-    if (isSpecialPeriod()) {
-      // Baue Öffnungszeiten-Slide um: nur Sonderhinweis
-      const hoursGrid = document.querySelector('.hours-grid');
-      if (hoursGrid && !hoursGrid.classList.contains('special-mode')) {
-        hoursGrid.classList.add('special-mode');
-        hoursGrid.innerHTML = `
-          <div class="hour-row today" style="background: linear-gradient(90deg, #fff4d1 0%, #ffe38a 100%); border-left-color: #e63329;">
-            <span class="hour-day" style="color: #b37700;">24.08. – 11.09.</span>
-            <span class="hour-time" style="color: #0d1610;">14:00 – 18:00</span>
-          </div>
-          <div class="hour-row">
-            <span class="hour-day">Ab 12.09.</span>
-            <span class="hour-time" style="font-size: 32px;">reguläre Zeiten</span>
-          </div>
-        `;
-      }
-      return;
-    }
-
-    if (day === 1) document.querySelector('[data-day="mo"]')?.classList.add('today');
-    else if (day >= 2 && day <= 5) document.querySelector('[data-day="di-fr"]')?.classList.add('today');
+    if (day >= 1 && day <= 5) document.querySelector('[data-day="mo-fr"]')?.classList.add('today');
     else if (day === 6) document.querySelector('[data-day="sa"]')?.classList.add('today');
     else document.querySelector('[data-day="so"]')?.classList.add('today');
   }
@@ -1023,9 +1008,6 @@
 
   function showSlide(idx) {
     contentSlides.forEach((s, i) => s.classList.toggle('active', i === idx));
-    // Visual-Slide entsprechend (nur 4 Bilder, Slide 5 nutzt Bild 4)
-    const visualIdx = Math.min(idx, visualSlides.length - 1);
-    visualSlides.forEach((s, i) => s.classList.toggle('active', i === visualIdx));
 
     contentSlides[idx].querySelectorAll('.hour-row, .service-card').forEach(el => {
       el.style.animation = 'none';
@@ -1043,14 +1025,17 @@
 
   function nextSlide() {
     currentSlide = (currentSlide + 1) % contentSlides.length;
-    // Slide 5 (Sonderöffnungszeiten) nach dem 11.09.26 überspringen
-    if (currentSlide === 4 && !isBeforeSpecialEnd()) {
-      currentSlide = 0;
-    }
     showSlide(currentSlide);
   }
 
   setInterval(nextSlide, slideDuration);
+
+  // BILDER ROTIEREN UNABHÄNGIG (alle Fotos, alle 5 Sekunden)
+  let currentVisual = 0;
+  setInterval(() => {
+    currentVisual = (currentVisual + 1) % visualSlides.length;
+    visualSlides.forEach((s, i) => s.classList.toggle('active', i === currentVisual));
+  }, slideDuration);
 </script>
 
 </body>
